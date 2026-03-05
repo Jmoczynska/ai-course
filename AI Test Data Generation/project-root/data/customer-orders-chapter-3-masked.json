@@ -1,0 +1,331 @@
+[
+  {
+    "orderId": 1001,
+    "customerName": "Jordan Blake",
+    "status": "Pending",
+    "totalAmount": 120.5,
+    "email": "jordan.blake@maskedmail.com",
+    "phoneNumber": "9-800-555-0001",
+    "items": [
+      { "name": "Laptop Sleeve", "quantity": 1, "price": 20.5 },
+      { "name": "Wireless Mouse", "quantity": 1, "price": 100.0 }
+    ]
+  },
+  {
+    "orderId": 1002,
+    "customerName": "Taylor Morgan",
+    "status": "Shipped",
+    "totalAmount": 89.99,
+    "email": "taylor.morgan@maskedmail.com",
+    "phoneNumber": "9-800-555-0002",
+    "items": [
+      { "name": "Cookware Set", "quantity": 1, "price": 89.99 }
+    ]
+  },
+  {
+    "orderId": 1003,
+    "customerName": "Casey Rivera",
+    "status": "Returned",
+    "totalAmount": "459.99",
+    "email": "casey.rivera@maskedmail.com",
+    "phoneNumber": "9-800-555-0003",
+    "items": [
+      { "name": "4K Monitor", "quantity": 1, "price": 459.99 }
+    ]
+  },
+  {
+    "orderId": 1004,
+    "customerName": "Riley Turner",
+    "status": "On Hold",
+    "totalAmount": 75.0,
+    "email": "riley.turner@maskedmail.com",
+    "phoneNumber": "9-800-555-0004",
+    "items": [
+      { "name": "Desk Organizer", "quantity": 3, "price": 25.0 }
+    ]
+  },
+  {
+    "orderId": 1005,
+    "customerName": "Cameron Hayes",
+    "status": "Processing",
+    "totalAmount": 150.0,
+    "email": "cameron.hayes@maskedmail.com",
+    "phoneNumber": "9-800-555-0005",
+    "items": [
+      { "name": "Office Chair", "quantity": 1, "price": 150.0 }
+    ]
+  },
+  {
+    "orderId": 1006,
+    "customerName": "Alexis Reed",
+    "status": "Payment Error",
+    "totalAmount": 210.75,
+    "email": "alexis.reed@maskedmail.com",
+    "phoneNumber": "9-800-555-0006",
+    "items": [
+      { "name": "Air Fryer", "quantity": 1, "price": 210.75 }
+    ]
+  },
+  {
+    "orderId": 1007,
+    "customerName": "Morgan Price",
+    "status": "Delayed",
+    "totalAmount": 0,
+    "email": "morgan.price@maskedmail.com",
+    "phoneNumber": "9-800-555-0007",
+    "items": []
+  },
+  {
+    "orderId": 1008,
+    "customerName": "Jamie Cole",
+    "status": "Cancelled",
+    "totalAmount": -25.5,
+    "email": "jamie.cole@maskedmail.com",
+    "phoneNumber": "9-800-555-0008",
+    "items": [
+      { "name": "Refund Adjustment", "quantity": 1, "price": -25.5 }
+    ]
+  },
+  {
+    "orderId": 1009,
+    "customerName": "Dakota Quinn",
+    "status": "Shipped",
+    "totalAmount": 9999999.99,
+    "email": "dakota.quinn@maskedmail.com",
+    "phoneNumber": "9-800-555-0009",
+    "items": [
+      { "name": "Industrial 3D Printer", "quantity": 1, "price": 9999999.99 }
+    ]
+  },
+  {
+    "orderId": 1010,
+    "customerName": "Skyler Bennett",
+    "status": "Returned",
+    "totalAmount": 49.99,
+    "email": "skyler.bennett@maskedmail.com",
+    "phoneNumber": "9-800-555-0010",
+    "items": [
+      { "name": "Bluetooth Speaker", "quantity": 1, "price": 49.99 }
+    ]
+  },
+  {
+    "orderId": 1011,
+    "customerName": "Avery Brooks",
+    "status": "Pending",
+    "totalAmount": 300.0,
+    "email": "avery.brooks@maskedmail.com",
+    "phoneNumber": "9-800-555-0011",
+    "items": [
+      { "name": "Standing Desk", "quantity": 1, "price": 300.0 }
+    ]
+  },
+  {
+    "orderId": 1012,
+    "customerName": "Reese Carter",
+    "status": "On Hold",
+    "totalAmount": 15.75,
+    "email": "reese.carter@maskedmail.com",
+    "phoneNumber": "9-800-555-0012",
+    "items": [
+      { "name": "Notebook Pack", "quantity": 3, "price": 5.25 }
+    ]
+  },
+  {
+    "orderId": 1013,
+    "customerName": "Parker Lee",
+    "status": "Payment Error",
+    "totalAmount": -100.0,
+    "email": "parker.lee@maskedmail.com",
+    "phoneNumber": "9-800-555-0013",
+    "items": [
+      { "name": "Chargeback", "quantity": 1, "price": -100.0 }
+    ]
+  },
+  {
+    "orderId": 1014,
+    "customerName": "Quinn Foster",
+    "status": "Shipped",
+    "totalAmount": 540.2,
+    "email": "quinn.foster@maskedmail.com",
+    "phoneNumber": "9-800-555-0014",
+    "items": [
+      { "name": "Smartphone", "quantity": 1, "price": 540.2 }
+    ]
+  },
+  {
+    "orderId": 1015,
+    "customerName": "Rowan Mitchell",
+    "status": "Delayed",
+    "totalAmount": 80.0,
+    "email": "rowan.mitchell@maskedmail.com",
+    "phoneNumber": "9-800-555-0015",
+    "items": [
+      { "name": "Gym Bag", "quantity": 2, "price": 40.0 }
+    ]
+  },
+  {
+    "orderId": 1016,
+    "customerName": "Emerson Hayes",
+    "status": "Pending",
+    "totalAmount": 60.0,
+    "email": "emerson.hayes@maskedmail.com",
+    "phoneNumber": "9-800-555-0016",
+    "items": [
+      { "name": "LED Light Strip", "quantity": 2, "price": 30.0 }
+    ]
+  },
+  {
+    "orderId": 1017,
+    "customerName": "Finley Jordan",
+    "status": "Returned",
+    "totalAmount": 1200.0,
+    "email": "finley.jordan@maskedmail.com",
+    "phoneNumber": "9-800-555-0017",
+    "items": [
+      { "name": "Gaming Laptop", "quantity": 1, "price": 1200.0 }
+    ]
+  },
+  {
+    "orderId": 1018,
+    "customerName": "Hayden Cooper",
+    "status": "Cancelled",
+    "totalAmount": 45.45,
+    "email": "hayden.cooper@maskedmail.com",
+    "phoneNumber": "9-800-555-0018",
+    "items": [
+      { "name": "Water Filter", "quantity": 1, "price": 45.45 }
+    ]
+  },
+  {
+    "orderId": 1019,
+    "customerName": "Blake Turner",
+    "status": "Shipped",
+    "totalAmount": 250.0,
+    "email": "blake.turner@maskedmail.com",
+    "phoneNumber": "9-800-555-0019",
+    "items": [
+      { "name": "Tablet", "quantity": 1, "price": 250.0 }
+    ]
+  },
+  {
+    "orderId": 1020,
+    "customerName": "Sage Ramirez",
+    "status": "On Hold",
+    "totalAmount": 0.01,
+    "email": "sage.ramirez@maskedmail.com",
+    "phoneNumber": "9-800-555-0020",
+    "items": [
+      { "name": "Test Microcharge", "quantity": 1, "price": 0.01 }
+    ]
+  },
+  {
+    "orderId": 1021,
+    "customerName": "Logan Parker",
+    "status": "Pending",
+    "totalAmount": 75.25,
+    "email": "logan.parker@maskedmail.com",
+    "phoneNumber": "9-800-555-0021",
+    "items": [
+      { "name": "Headphones", "quantity": 1, "price": 75.25 }
+    ]
+  },
+  {
+    "orderId": 1022,
+    "customerName": "Charlie Morgan",
+    "status": "Delayed",
+    "totalAmount": 640.0,
+    "email": "charlie.morgan@maskedmail.com",
+    "phoneNumber": "9-800-555-0022",
+    "items": [
+      { "name": "Electric Scooter", "quantity": 1, "price": 640.0 }
+    ]
+  },
+  {
+    "orderId": 1023,
+    "customerName": "Jordan Ellis",
+    "status": "Payment Error",
+    "totalAmount": 33.33,
+    "email": "jordan.ellis@maskedmail.com",
+    "phoneNumber": "9-800-555-0023",
+    "items": [
+      { "name": "USB Drive", "quantity": 3, "price": 11.11 }
+    ]
+  },
+  {
+    "orderId": 1024,
+    "customerName": "Taylor Brooks",
+    "status": "Returned",
+    "totalAmount": 410.4,
+    "email": "taylor.brooks@maskedmail.com",
+    "phoneNumber": "9-800-555-0024",
+    "items": [
+      { "name": "Vacuum Cleaner", "quantity": 1, "price": 410.4 }
+    ]
+  },
+  {
+    "orderId": 1025,
+    "customerName": "Cameron Price",
+    "status": "Shipped",
+    "totalAmount": 510.0,
+    "email": "cameron.price@maskedmail.com",
+    "phoneNumber": "9-800-555-0025",
+    "items": [
+      { "name": "Mountain Bike", "quantity": 1, "price": 510.0 }
+    ]
+  },
+  {
+    "orderId": 1026,
+    "customerName": "Riley Bennett",
+    "status": "Pending",
+    "totalAmount": 27.5,
+    "email": "riley.bennett@maskedmail.com",
+    "phoneNumber": "9-800-555-0026",
+    "items": [
+      { "name": "Cooking Utensil Set", "quantity": 1, "price": 27.5 }
+    ]
+  },
+  {
+    "orderId": 1027,
+    "customerName": "Alex Morgan",
+    "status": "Cancelled",
+    "totalAmount": 3000.0,
+    "email": "alex.morgan@maskedmail.com",
+    "phoneNumber": "9-800-555-0027",
+    "items": [
+      { "name": "Home Theater System", "quantity": 1, "price": 3000.0 }
+    ]
+  },
+  {
+    "orderId": 1028,
+    "customerName": "Jamie Foster",
+    "status": "On Hold",
+    "totalAmount": 18.9,
+    "email": "jamie.foster@maskedmail.com",
+    "phoneNumber": "9-800-555-0028",
+    "items": [
+      { "name": "Plant Pot Set", "quantity": 3, "price": 6.3 }
+    ]
+  },
+  {
+    "orderId": 1029,
+    "customerName": "Dakota Hayes",
+    "status": "Delayed",
+    "totalAmount": 123.45,
+    "email": "dakota.hayes@maskedmail.com",
+    "phoneNumber": "9-800-555-0029",
+    "items": [
+      { "name": "Router", "quantity": 1, "price": 123.45 }
+    ]
+  },
+  {
+    "orderId": 1030,
+    "customerName": "Skyler Reed",
+    "status": "Returned",
+    "totalAmount": 88.88,
+    "email": "skyler.reed@maskedmail.com",
+    "phoneNumber": "9-800-555-0030",
+    "items": [
+      { "name": "Kitchen Mixer", "quantity": 1, "price": 88.88 }
+    ]
+  }
+]

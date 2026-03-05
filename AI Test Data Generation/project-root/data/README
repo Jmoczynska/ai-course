@@ -1,0 +1,53 @@
+## Chapter 1 – Customer Order Dataset
+Prompt used: "Generate 15 customer orders ..."
+Observations:
+- Values are realistic and logically consistent.
+- Status distribution is fairly balanced.
+- Customer data is suitable for basic UI/API testing.
+- No duplicates or nonsensical entries detected.
+
+## Chapter 2 – Data Variety and Extended Schema
+Prompt used:
+  "Extend the dataset to 30 records with: -Expanded statuses (Returned, On Hold, Payment Error, Delayed). -Boundary totals (0, very large, and a few negative values for negative testing). -A small set of invalid entries (I gave examples) -The new contact and item fields populated with realistic values."
+Observations:
+- Added extended production-like statuses.
+- Included intentional invalid records (enum, type mismatch, invalid email/phone).
+- Totals cover boundary values (0, very large, negative).
+- Added UTF-8 character case for encoding validation.
+- All records include contact details and items array.
+- Valid records remain schema-consistent and invalid ones support validation testing
+
+## Chapter 3 – Data Masking and Validation
+Prompt used:
+"Mask PII in the dataset: - Replace customerName, email, and phoneNumber with synthetic but realistic values. - Keep orderId, status, totalAmount, and items unchanged. - Preserve types and overall structure. - Output as JSON in the same schema."
+Checks performed:
+- All masked fields preserve type and basic format.
+- No record lost required keys.
+- items arrays are intact with expected fields.
+- Validation confirmed schema consistency.
+
+## Chapter 5 – AI Data Quality Report
+
+Validation source: Postman  
+Total records tested: 30  
+
+Results Summary:
+Passed: 26  
+Failed: 4  
+Pass rate: 86.7 %
+
+Common Issues:
+- totalAmount type mismatch (orderId 1003)
+- negative totalAmount (orderId 1008, 1013)
+- empty items array (orderId 1007)
+
+Observations:
+- Dataset structure remained consistent across all records.
+- Status values were valid and fully compliant with the schema.
+- Integration-level validation successfully detected type and business-rule violations.
+- Round-trip integrity was preserved for all structurally valid records.
+
+Next Steps
+- Enforce numeric type for financial fields.
+- Add validation to prevent negative totals where not allowed.
+- Require non-empty items arrays for valid orders.

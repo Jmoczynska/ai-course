@@ -1,0 +1,172 @@
+[
+  {
+    "orderId": 1001,
+    "customerName": "Alice Johnson",
+    "status": "Pending",
+    "totalAmount": 149.99,
+    "email": "alice.johnson@example.com",
+    "phoneNumber": "+1-555-000-0001",
+    "items": [
+      { "name": "Wireless Mouse", "quantity": 1, "price": 29.99 },
+      { "name": "Bluetooth Keyboard", "quantity": 1, "price": 49.99 },
+      { "name": "USB-C Hub", "quantity": 1, "price": 70.01 }
+    ]
+  },
+  {
+    "orderId": 1002,
+    "customerName": "Michael Smith",
+    "status": "Shipped",
+    "totalAmount": 89.5,
+    "email": "michael.smith@example.com",
+    "phoneNumber": "+1-555-000-0002",
+    "items": [
+      { "name": "Running Shoes", "quantity": 1, "price": 89.5 }
+    ]
+  },
+  {
+    "orderId": 1003,
+    "customerName": "Sophia Martinez",
+    "status": "Cancelled",
+    "totalAmount": 249.0,
+    "email": "sophia.martinez@example.com",
+    "phoneNumber": "+1-555-000-0003",
+    "items": [
+      { "name": "Smartwatch", "quantity": 1, "price": 249.0 }
+    ]
+  },
+  {
+    "orderId": 1004,
+    "customerName": "James Brown",
+    "status": "Shipped",
+    "totalAmount": 59.99,
+    "email": "james.brown@example.com",
+    "phoneNumber": "+1-555-000-0004",
+    "items": [
+      { "name": "Desk Lamp", "quantity": 2, "price": 29.995 }
+    ]
+  },
+  {
+    "orderId": 1005,
+    "customerName": "Olivia Davis",
+    "status": "Pending",
+    "totalAmount": 320.75,
+    "email": "olivia.davis@example.com",
+    "phoneNumber": "+1-555-000-0005",
+    "items": [
+      { "name": "Office Chair", "quantity": 1, "price": 320.75 }
+    ]
+  },
+  {
+    "orderId": 1006,
+    "customerName": "William Garcia",
+    "status": "Shipped",
+    "totalAmount": 42.3,
+    "email": "william.garcia@example.com",
+    "phoneNumber": "+1-555-000-0006",
+    "items": [
+      { "name": "Water Bottle", "quantity": 3, "price": 14.1 }
+    ]
+  },
+  {
+    "orderId": 1007,
+    "customerName": "Emma Wilson",
+    "status": "Cancelled",
+    "totalAmount": 199.99,
+    "email": "emma.wilson@example.com",
+    "phoneNumber": "+1-555-000-0007",
+    "items": [
+      { "name": "Noise Cancelling Headphones", "quantity": 1, "price": 199.99 }
+    ]
+  },
+  {
+    "orderId": 1008,
+    "customerName": "Benjamin Anderson",
+    "status": "Pending",
+    "totalAmount": 75.49,
+    "email": "benjamin.anderson@example.com",
+    "phoneNumber": "+1-555-000-0008",
+    "items": [
+      { "name": "Graphic T-Shirt", "quantity": 2, "price": 25.0 },
+      { "name": "Baseball Cap", "quantity": 1, "price": 25.49 }
+    ]
+  },
+  {
+    "orderId": 1009,
+    "customerName": "Isabella Thomas",
+    "status": "Shipped",
+    "totalAmount": 510.0,
+    "email": "isabella.thomas@example.com",
+    "phoneNumber": "+1-555-000-0009",
+    "items": [
+      { "name": "Tablet", "quantity": 1, "price": 510.0 }
+    ]
+  },
+  {
+    "orderId": 1010,
+    "customerName": "Daniel Taylor",
+    "status": "Pending",
+    "totalAmount": 134.2,
+    "email": "daniel.taylor@example.com",
+    "phoneNumber": "+1-555-000-0010",
+    "items": [
+      { "name": "Backpack", "quantity": 1, "price": 64.2 },
+      { "name": "Notebook Set", "quantity": 2, "price": 35.0 }
+    ]
+  },
+  {
+    "orderId": 1011,
+    "customerName": "Mia Moore",
+    "status": "Cancelled",
+    "totalAmount": 67.89,
+    "email": "mia.moore@example.com",
+    "phoneNumber": "+1-555-000-0011",
+    "items": [
+      { "name": "Yoga Mat", "quantity": 1, "price": 67.89 }
+    ]
+  },
+  {
+    "orderId": 1012,
+    "customerName": "Ethan Jackson",
+    "status": "Shipped",
+    "totalAmount": 278.4,
+    "email": "ethan.jackson@example.com",
+    "phoneNumber": "+1-555-000-0012",
+    "items": [
+      { "name": "Coffee Maker", "quantity": 1, "price": 178.4 },
+      { "name": "Coffee Beans Pack", "quantity": 2, "price": 50.0 }
+    ]
+  },
+  {
+    "orderId": 1013,
+    "customerName": "Charlotte Martin",
+    "status": "Pending",
+    "totalAmount": 99.99,
+    "email": "charlotte.martin@example.com",
+    "phoneNumber": "+1-555-000-0013",
+    "items": [
+      { "name": "Perfume", "quantity": 1, "price": 99.99 }
+    ]
+  },
+  {
+    "orderId": 1014,
+    "customerName": "Alexander Lee",
+    "status": "Shipped",
+    "totalAmount": 150.0,
+    "email": "alexander.lee@example.com",
+    "phoneNumber": "+1-555-000-0014",
+    "items": [
+      { "name": "Gaming Controller", "quantity": 2, "price": 75.0 }
+    ]
+  },
+  {
+    "orderId": 1015,
+    "customerName": "Amelia Harris",
+    "status": "Cancelled",
+    "totalAmount": 215.6,
+    "email": "amelia.harris@example.com",
+    "phoneNumber": "+1-555-000-0015",
+    "items": [
+      { "name": "Winter Jacket", "quantity": 1, "price": 215.6 }
+    ]
+  }
+]
