@@ -62,3 +62,24 @@ jobs:
             test-results/**/trace*.zip
             test-results
           if-no-files-found: warn
+
+      - name: Notify Microsoft Teams on failure
+        if: failure()
+        env:
+          TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          BRANCH_NAME: ${{ github.head_ref }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          payload=$(cat <<'JSON'
+          {
+            "text": "❌ Playwright workflow failed.\nPR: ${PR_TITLE}\nAuthor: ${PR_AUTHOR}\nBranch: ${BRANCH_NAME}\nRun: ${RUN_URL}"
+          }
+          JSON
+          )
+          payload="${payload//\$\{PR_TITLE\}/${PR_TITLE}}"
+          payload="${payload//\$\{PR_AUTHOR\}/${PR_AUTHOR}}"
+          payload="${payload//\$\{BRANCH_NAME\}/${BRANCH_NAME}}"
+          payload="${payload//\$\{RUN_URL\}/${RUN_URL}}"
+          curl -H "Content-Type: application/json" -d "$payload" "$TEAMS_WEBHOOK_URL"

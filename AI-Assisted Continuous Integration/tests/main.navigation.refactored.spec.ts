@@ -47,4 +47,8 @@ test.describe('Main page navigation', () => {
       await expect(page).toHaveURL(testData.urls.community);
     });
   });
+
+  test('fail', async () => {
+    expect(1).toBe(2);
+  });
 });
