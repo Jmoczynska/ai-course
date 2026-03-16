@@ -13,55 +13,51 @@ concurrency:
 
 jobs:
   playwright-tests:
-    # Run Playwright E2E tests for pull requests into main.
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
       CI: true
+    defaults:
+      run:
+        working-directory: AI-Assisted Continuous Integration
 
     steps:
-      # Checkout repository code.
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Setup latest LTS Node.js and enable Yarn cache.
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: lts/*
-          cache: yarn
+          cache: npm
+          cache-dependency-path: AI-Assisted Continuous Integration/package-lock.json
 
-      # Install dependencies with strict lockfile/cache validation.
       - name: Install dependencies
-        run: yarn install --immutable --immutable-cache --check-cache
+        run: npm ci
 
-      # Install Playwright browsers and required system dependencies.
       - name: Install Playwright browsers
-        run: yarn playwright install --with-deps
+        run: npx playwright install --with-deps
 
-      # Run Playwright tests (parallel by default via Playwright workers).
       - name: Run Playwright tests
-        run: yarn playwright test
+        run: npx playwright test --reporter=html
 
-      # Always upload Playwright HTML report for debugging.
       - name: Upload Playwright HTML report
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: playwright-html-report
-          path: playwright-report
-          if-no-files-found: warn
+          path: AI-Assisted Continuous Integration/playwright-report
+          if-no-files-found: ignore
 
-      # Always upload Playwright traces for failed/intermittent test analysis.
       - name: Upload Playwright traces
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: playwright-traces
           path: |
-            test-results/**/trace*.zip
-            test-results
-          if-no-files-found: warn
+            AI-Assisted Continuous Integration/test-results/**/trace*.zip
+            AI-Assisted Continuous Integration/test-results
+          if-no-files-found: ignore
 
       - name: Notify Microsoft Teams on failure
         if: failure()
