@@ -48,8 +48,8 @@ test.describe('Main page navigation', () => {
     });
   });
 
-  // test for teams notification
-  test('fail', async () => {
-    expect(1).toBe(2);
-  });
+  // // test for teams notification
+  // test('fail', async () => {
+  //   expect(1).toBe(2);
+  // });
 });
